@@ -1,5 +1,4 @@
-module github.com/kljensen/snowball
+module github.com/grecod-oss/snowball
 
-go 1.15
+go 1.16
 
-replace github.com/kljensen/snowball v0.6.0 => github.com/grecod-oss/snowball v0.0.1
