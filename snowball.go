@@ -9,7 +9,6 @@ import (
 	"github.com/kljensen/snowball/russian"
 	"github.com/kljensen/snowball/spanish"
 	"github.com/kljensen/snowball/swedish"
-	"github.com/grecod-oss/snowball/ukrainian"
 	
 )
 
@@ -35,8 +34,6 @@ func Stem(word, language string, stemStopWords bool) (stemmed string, err error)
 		f = swedish.Stem
 	case "norwegian":
 		f = norwegian.Stem
-	case "ukrainian":
-		f = ukrainian.Stem
 	default:
 		err = fmt.Errorf("Unknown language: %s", language)
 		return
