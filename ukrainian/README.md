@@ -1,8 +1,8 @@
-Snowball Russian
+Snowball Ukrainian
 ================
 
 This package implements the
-[Ukrainian language Snowball stemmer](http://snowball.tartarus.org/algorithms/russian/stemmer.html).
+[Ukrainian language Snowball stemmer](http://snowball.tartarus.org/algorithms/ukrainian/stemmer.html).
 
 ## Ukrainian overview
 
