@@ -1,8 +1,8 @@
 package norwegian
 
 import (
-	"github.com/kljensen/snowball/romance"
-	"github.com/kljensen/snowball/snowballword"
+	"github.com/grecod-oss/snowball/romance"
+	"github.com/grecod-oss/snowball/snowballword"
 )
 
 // Find the starting point of the region R1.

@@ -1,7 +1,7 @@
 package ukrainian
 
 import (
-	"github.com/kljensen/snowball/snowballword"
+	"github.com/grecod-oss/snowball/snowballword"
 )
 
 // Step 4 is the undoubling of double non-vowel endings

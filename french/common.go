@@ -1,8 +1,8 @@
 package french
 
 import (
-	"github.com/kljensen/snowball/romance"
-	"github.com/kljensen/snowball/snowballword"
+	"github.com/grecod-oss/snowball/romance"
+	"github.com/grecod-oss/snowball/snowballword"
 )
 
 // Return `true` if the input `word` is a French stop word.

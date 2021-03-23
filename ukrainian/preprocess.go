@@ -1,7 +1,7 @@
 package ukrainian
 
 import (
-	"github.com/kljensen/snowball/snowballword"
+	"github.com/grecod-oss/snowball/snowballword"
 )
 
 func preprocess(word *snowballword.SnowballWord) {

@@ -1,11 +1,11 @@
 package ukrainian
 
 import (
-	"github.com/kljensen/snowball/romance"
-	"github.com/kljensen/snowball/snowballword"
+	"github.com/grecod-oss/snowball/romance"
+	"github.com/grecod-oss/snowball/snowballword"
 )
 
-// Checks if a rune is a lowercase Russian vowel.
+// Checks if a rune is a lowercase Ukrainian vowel.
 //
 func isLowerVowel(r rune) bool {
 
@@ -13,7 +13,7 @@ func isLowerVowel(r rune) bool {
 	// are referenced by their unicode code points
 	// in the switch statement below.
 	switch r {
-	case 1072, 1077, 1080, 1086, 1091, 1099, 1101, 1102, 1103:
+	case 1072, 1077, 1108, 1080, 1110, 1111, 1086, 1091, 1102, 1103:
 		return true
 	}
 	return false
@@ -44,14 +44,13 @@ func isStopWord(word string) bool {
 		"яка", "багато", "хіба", "три", "цю", "моя",
 		"втім", "добре", "свою", "цією", "перед", "іноді",
 		"краще", "трохи", "тому", "не можна", "такий", "їм", "більш",
-		"завжди", "звичайно", "всю", "між":
+		"завжди", "звичайно", "всю", "між", "мене":
 		return true
 	}
 	return false
 }
 
 // Find the starting point of the regions R1, R2, & RV
-//
 func findRegions(word *snowballword.SnowballWord) (r1start, r2start, rvstart int) {
 
 	// R1 & R2 are defined in the standard manner.
@@ -63,7 +62,6 @@ func findRegions(word *snowballword.SnowballWord) (r1start, r2start, rvstart int
 
 	// RV is the region after the first vowel, or the end of
 	// the word if it contains no vowel.
-	//
 	for i := 0; i < len(word.RS); i++ {
 		if isLowerVowel(word.RS[i]) {
 			rvstart = i + 1

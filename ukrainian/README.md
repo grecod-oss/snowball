@@ -1,4 +1,4 @@
-Snowball Russian
+Snowball Ukrainian
 ================
 
 This package implements the
