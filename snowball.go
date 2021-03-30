@@ -3,17 +3,17 @@ package snowball
 import (
 	"fmt"
 
-	"github.com/kljensen/snowball/english"
-	"github.com/kljensen/snowball/french"
-	"github.com/kljensen/snowball/norwegian"
-	"github.com/kljensen/snowball/russian"
-	"github.com/kljensen/snowball/spanish"
-	"github.com/kljensen/snowball/swedish"
-	
+	"github.com/grecod-oss/snowball/english"
+	"github.com/grecod-oss/snowball/french"
+	"github.com/grecod-oss/snowball/norwegian"
+	"github.com/grecod-oss/snowball/russian"
+	"github.com/grecod-oss/snowball/spanish"
+	"github.com/grecod-oss/snowball/swedish"
+	"github.com/grecod-oss/snowball/ukrainian"
 )
 
 const (
-	VERSION string = "v0.7.0"
+	VERSION string = "v0.0.1"
 )
 
 // Stem a word in the specified language.

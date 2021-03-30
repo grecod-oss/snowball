@@ -1,7 +1,7 @@
 package ukrainian
 
 import (
-	"github.com/kljensen/snowball/snowballword"
+	"github.com/grecod-oss/snowball/snowballword"
 )
 
 // Step 3 is the removal of the derivational suffix.

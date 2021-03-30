@@ -1,8 +1,8 @@
 package english
 
 import (
-	"github.com/kljensen/snowball/romance"
-	"github.com/kljensen/snowball/snowballword"
+	"github.com/grecod-oss/snowball/romance"
+	"github.com/grecod-oss/snowball/snowballword"
 )
 
 // Replaces all different kinds of apostrophes with a single

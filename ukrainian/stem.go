@@ -3,7 +3,7 @@ package ukrainian
 import (
 	"strings"
 
-	"github.com/kljensen/snowball/snowballword"
+	"github.com/grecod-oss/snowball/snowballword"
 )
 
 // Stem an Ukrainian word.  This is the only exported
