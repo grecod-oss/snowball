@@ -32,10 +32,10 @@ func Stem(word, language string, stemStopWords bool) (stemmed string, err error)
 		f = russian.Stem
 	case "swedish":
 		f = swedish.Stem
+	case "ukrainian":
+		f = ukrainian.Stem
 	case "norwegian":
 		f = norwegian.Stem
-	case "ukrainian":
-		f = ukrainian.Stem	
 	default:
 		err = fmt.Errorf("Unknown language: %s", language)
 		return
