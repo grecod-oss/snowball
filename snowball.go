@@ -9,7 +9,7 @@ import (
 	"github.com/grecod-oss/snowball/russian"
 	"github.com/grecod-oss/snowball/spanish"
 	"github.com/grecod-oss/snowball/swedish"
-	//"github.com/grecod-oss/snowball/ukrainian"
+	"github.com/grecod-oss/snowball/ukrainian"
 )
 
 const (
